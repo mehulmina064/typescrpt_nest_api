@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "paths": {
+      "@can/aws": [
+        "libs/aws/src"
+      ],
+      "@can/aws/*": [
+        "libs/aws/src/*"
+      ],
+      "@can/state-machine": [
+        "libs/state-machine/src"
+      ],
+      "@can/state-machine/*": [
+        "libs/state-machine/src/*"
+      ],
+      "@can/common": [
+        "libs/common/src"
+      ],
+      "@can/common/*": [
+        "libs/common/src/*"
+      ],
+      "@can/notification": [
+        "libs/notification/src"
+      ],
+      "@can/notification/*": [
+        "libs/notification/src/*"
+      ]
+    }
+  }
+}

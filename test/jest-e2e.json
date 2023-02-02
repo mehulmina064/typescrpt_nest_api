@@ -1,0 +1,23 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "@can/aws/(.*)": "<rootDir>/../libs/aws/src/$1",
+    "@can/aws": "<rootDir>/../libs/aws/src",
+    "@can/state-machine/(.*)": "<rootDir>/../libs/state-machine/src/$1",
+    "@can/state-machine": "<rootDir>/../libs/state-machine/src",
+    "@can/common/(.*)": "<rootDir>/../libs/common/src/$1",
+    "@can/common": "<rootDir>/../libs/common/src",
+    "@can/notification/(.*)": "<rootDir>/../libs/notification/src/$1",
+    "@can/notification": "<rootDir>/../libs/notification/src"
+  }
+}
